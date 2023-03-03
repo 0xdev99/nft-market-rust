@@ -1,0 +1,16 @@
+[package]
+name = "nft-bid-market"
+version = "0.1.0"
+authors = ["Near Inc <hello@near.org>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "4.0.0-pre.5"
+near-contract-standards = "4.0.0-pre.5"
+
+[dev-dependencies]
+near-sdk-sim = "4.0.0-pre.5"
+nft-contract = { path = "../nft" }

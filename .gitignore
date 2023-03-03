@@ -1,0 +1,16 @@
+# ignore Mac OS noise
+.DS_Store
+
+# Rust build files
+**/target
+
+Cargo.lock
+
+**/neardev
+res/*.wasm
+res
+
+.env
+
+# workspaces credentials
+tests-workspaces/.near-credentials
